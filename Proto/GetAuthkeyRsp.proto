@@ -1,0 +1,13 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+
+// CmdId: 154
+// obf: CMLAFDBCKJA
+message GetAuthkeyRsp {
+	int32 retcode = 4;
+	string auth_appid = 5;
+	uint32 MPGMOFLCEOF = 6;
+	uint32 CIJPMGMCJBA = 11;
+	string authkey = 13;
+	string game_biz = 15;
+}

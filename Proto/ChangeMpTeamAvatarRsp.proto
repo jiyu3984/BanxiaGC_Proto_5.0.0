@@ -1,0 +1,10 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+
+// CmdId: 28252
+// obf: KCNOOLDKOPD
+message ChangeMpTeamAvatarRsp {
+	uint64 cur_avatar_guid = 2;
+	int32 retcode = 13;
+	repeated uint64 avatar_guid_list = 15;
+}

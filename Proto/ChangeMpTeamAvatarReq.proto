@@ -1,0 +1,9 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+
+// CmdId: 28747
+// obf: DBEBGAGNGEG
+message ChangeMpTeamAvatarReq {
+	repeated uint64 avatar_guid_list = 11;
+	uint64 cur_avatar_guid = 4;
+}

@@ -1,0 +1,9 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+
+// CmdId: 21263
+// obf: DNPAHCFPJML
+message AvatarChangeElementTypeReq {
+	uint32 scene_id = 4;
+	uint32 area_id = 8;
+}

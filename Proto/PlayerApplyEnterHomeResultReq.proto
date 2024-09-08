@@ -1,0 +1,8 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+
+// CmdId: 378
+message PlayerApplyEnterHomeResultReq {
+	bool is_agreed = 2;
+	uint32 apply_uid = 6;
+}

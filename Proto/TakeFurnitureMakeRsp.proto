@@ -1,0 +1,14 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+import "FurnitureMakeSlot.proto";
+import "ItemParam.proto";
+
+// CmdId: 6584
+// obf: NKPACMDAIDM
+message TakeFurnitureMakeRsp {
+	FurnitureMakeSlot furniture_make_slot = 3;
+	repeated ItemParam return_item_list = 6; // obf: MKMHPOMEAHP 字段可能猜的是错的
+	int32 retcode = 8;
+	repeated ItemParam output_item_list = 12; // obf: GBEPKGLFBFD 字段可能猜的是错的
+	uint32 make_id = 13;
+}

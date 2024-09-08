@@ -1,0 +1,11 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+
+
+// CmdId: 27579
+// obf: DMNDPEJAEDI
+// 5.0
+message ExitTransPointRegionNotify {
+	uint32 scene_id = 9;
+	uint32 point_id = 13;
+}

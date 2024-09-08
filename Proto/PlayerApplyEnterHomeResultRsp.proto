@@ -1,0 +1,11 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+
+// CmdId: 21189
+// obf: EJLOLDHLMHP
+message PlayerApplyEnterHomeResultRsp {
+	uint32 apply_uid = 1;
+	uint32 param = 5;
+	int32 retcode = 6;
+	bool is_agreed = 11;
+}

@@ -1,0 +1,12 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+import "MainCoop.proto";
+
+// CmdId: 2147
+// obf: GCIGEBDOPID
+message StartCoopPointRsp {
+	int32 retcode = 8;
+	bool is_start = 9;
+	MainCoop start_main_coop = 10;
+	uint32 coop_point = 12;
+}

@@ -1,0 +1,9 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+
+// CmdId: 24313
+// obf: FDHLDCFBKNJ
+// 这里可能解的不对
+message AvatarDelNotify {
+	repeated uint64 avatar_guid_list = 4;
+}

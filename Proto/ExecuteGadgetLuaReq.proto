@@ -1,0 +1,11 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+
+// CmdId: 5759
+// obf: JCNCIIDJLIF
+message ExecuteGadgetLuaReq {
+	int32 param3 = 10;
+	int32 param2 = 7;
+	int32 param1 = 1;
+	uint32 source_entity_id = 6;
+}

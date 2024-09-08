@@ -1,0 +1,10 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+
+// obf: AHHMJALNJOH
+message CompoundQueueData {
+	uint32 outputTime = 1;
+	uint32 waitCount = 6;
+	uint32 compound_id = 11;
+	uint32 outputCount = 12;
+}

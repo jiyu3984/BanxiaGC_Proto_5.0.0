@@ -1,0 +1,9 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+
+// CmdId: 3239
+// obf: JMCKNHAEGKP
+message DungeonWayPointNotify {
+	repeated uint32 active_way_point_list = 3;
+	bool is_add = 13;
+}

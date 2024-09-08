@@ -1,0 +1,12 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+
+
+// CmdId: 192
+// obf: OBPNJHOFBED
+message PlayerCookReq {
+	uint32 assist_avatar = 4;
+	uint32 cook_count = 13;
+	uint32 recipe_id = 11;
+	uint32 qte_quality = 6;
+}

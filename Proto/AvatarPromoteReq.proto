@@ -1,0 +1,9 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+
+// CmdId: 21972
+// Obf: MHNOADCNPMP
+// 5.0.0
+message AvatarPromoteReq {
+	uint64 guid = 8;
+}

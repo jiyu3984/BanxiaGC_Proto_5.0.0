@@ -1,0 +1,26 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+import "ItemParam.proto";
+import "CookRecipeData.proto";
+
+
+// CmdId: 23979
+// obf: OJPDNBKPIKI
+message PlayerCookRsp {
+	uint32 cook_count = 1;
+	repeated ItemParam extral_item_list = 3;
+	CookRecipeData recipe_data = 9;
+	int32 retcode = 11;
+	repeated ItemParam item_list = 12;
+	uint32 qte_quality = 15;
+}
+/* 备份
+message PlayerCookRsp {
+	uint32 LPDDMNEMJL1G = 1;
+	repeated ItemParam extral_item_list = 3;
+	CookRecipeData recipe_data = 9;
+	int32 retcode = 11;
+	repeated ItemParam item_list = 12;
+	uint32 EJCPFNNGJK1H = 15;
+}
+*/

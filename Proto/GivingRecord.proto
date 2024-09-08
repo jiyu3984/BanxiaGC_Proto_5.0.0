@@ -1,0 +1,13 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+
+// obf: EDAIFEEBMFK
+message GivingRecord {
+	uint32 giving_id = 1;
+	map<uint32, uint32> material_cnt_map = 3;
+	uint32 last_group_id = 5;
+	bool is_gadget_giving = 11;
+	uint32 group_id = 12;
+	uint32 config_id = 13;
+	bool is_finished = 15;
+}

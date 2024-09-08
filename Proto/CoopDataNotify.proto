@@ -1,0 +1,12 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+import "CoopChapter.proto";
+
+// CmdId: 25237
+// obf: GFEAHJACJIM
+message CoopDataNotify {
+	bool is_have_progress = 3;
+	repeated uint32 viewed_chapter_list = 6;
+	repeated CoopChapter chapter_list = 8;
+	uint32 cur_coop_point = 15;
+}

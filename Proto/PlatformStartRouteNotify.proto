@@ -1,0 +1,10 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+import "PlatformInfo.proto";
+
+// CmdId: 2989
+message PlatformStartRouteNotify {
+	uint32 scene_time = 3;
+	uint32 entity_id = 6;
+	PlatformInfo platform = 11;
+}

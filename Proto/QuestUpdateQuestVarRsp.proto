@@ -1,0 +1,11 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+
+// CmdId: 3297
+// obf: CJBDBPKJIBD
+message QuestUpdateQuestVarRsp {
+	uint32 parent_quest_var_seq = 5;
+	uint32 parent_quest_id = 10;
+	int32 retcode = 12;
+	uint32 quest_id = 13;
+}

@@ -1,0 +1,8 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+
+// CmdId: 6231
+// obf: KOIKEKNGKOD
+message TakeBattlePassMissionPointReq {
+	repeated uint32 mission_id_list = 10;
+}

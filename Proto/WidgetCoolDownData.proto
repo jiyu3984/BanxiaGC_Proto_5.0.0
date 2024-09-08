@@ -1,0 +1,9 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+
+// obf: PHJJCHBPKM1P
+message WidgetCoolDownData {
+	uint64 cool_down_time = 1;
+	uint32 id = 4;
+	bool is_success = 5;
+}

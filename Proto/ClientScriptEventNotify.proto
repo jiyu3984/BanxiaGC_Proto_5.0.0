@@ -1,0 +1,11 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+
+// CmdId: 29125
+// obf: EMJHBHIPDDC
+message ClientScriptEventNotify {
+	repeated int32 param_list = 1;
+	uint32 target_entity_id = 14;
+	uint32 source_entity_id = 5;
+	uint32 event_type = 12;
+}

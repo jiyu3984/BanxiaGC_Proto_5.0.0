@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+message TowerLevelStarCondData {
+	bool is_fail = 4; // sus
+	uint32 cond_value = 9; // sus
+	bool is_pause = 12; // sus
+	uint32 star_cond_index = 14; // sus
+}

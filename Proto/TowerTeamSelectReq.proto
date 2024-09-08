@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "TowerTeam.proto";
+
+// CmdId: 21495
+message TowerTeamSelectReq {
+	repeated TowerTeam tower_team_list = 11;
+	uint32 floor_id = 9;
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+
+// CmdId: 4506
+// obf: DLHFEMAMNMM
+message CardProductRewardNotify {
+	uint32 remain_days = 4;
+	uint32 hcoin = 5;
+	string product_id = 10;
+}

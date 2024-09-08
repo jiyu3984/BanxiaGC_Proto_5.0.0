@@ -1,0 +1,9 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+
+// CmdId: 27757
+message MusicGameStartRsp {
+	uint32 music_basic_id = 4;
+	int32 retcode = 7;
+	uint64 ugc_guid = 10;
+}

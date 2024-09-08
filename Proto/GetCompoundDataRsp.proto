@@ -1,0 +1,11 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+import "CompoundQueueData.proto";
+
+// CmdId: 4557
+// obf: NIKJBKDFCDL
+message GetCompoundDataRsp {
+	int32 retcode = 1;
+	repeated CompoundQueueData compoundQueueDataList = 10;
+	repeated uint32 unlockCompoundList = 14;
+}

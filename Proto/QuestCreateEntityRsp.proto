@@ -1,0 +1,14 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+import "CreateEntityInfo.proto";
+
+// CmdId: 8838
+// obf: LDBFNDJEBLI
+message QuestCreateEntityRsp {
+	uint32 parent_quest_id = 2;
+	bool is_rewind = 3;
+	uint32 entity_id = 5;
+	uint32 quest_id = 11;
+	int32 retcode = 14;
+	CreateEntityInfo entity = 15;
+}

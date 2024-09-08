@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "TowerFightRecordPair.proto";
+
+message TowerMonthlyCombatRecord {
+	TowerFightRecordPair MFHLCAPDNMM = 2;
+	repeated TowerFightRecordPair most_reveal_avatar_list = 4;
+	TowerFightRecordPair GJBDHBDJGED = 8;
+	TowerFightRecordPair DFGIOFHBIBL = 10;
+	TowerFightRecordPair HOPJKPLBDJI = 12;
+	TowerFightRecordPair IPFOLMOJDIE = 15;
+}

@@ -3,6 +3,7 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "ItemParam.proto";
 
+// CmdId: 7713
 message WeaponUpgradeReq {
 	repeated ItemParam item_param_list = 8;
 	repeated uint64 food_weapon_guid_list = 15;

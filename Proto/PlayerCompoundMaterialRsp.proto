@@ -1,0 +1,10 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+import "CompoundQueueData.proto";
+
+// CmdId: 22858
+// obf: GIBIELHMEIO
+message PlayerCompoundMaterialRsp {
+	int32 retcode = 8;
+	CompoundQueueData compoundQueueData = 13;
+}

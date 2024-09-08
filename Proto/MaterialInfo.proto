@@ -1,0 +1,9 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+
+
+// obf: FGBAEINDLHG
+message MaterialInfo {
+	uint64 guid = 6;
+	uint32 count = 9;
+}

@@ -1,0 +1,18 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+import "ItemParam.proto";
+
+// CmdId: 29627
+// obf: EIHMBDMBJGO
+message CombineRsp {
+	uint32 combine_id = 1;
+	repeated ItemParam totalExtraItemList = 3; // obf: DIPIPCANMFM 解出来的可能不对
+	repeated ItemParam total_return_item_list = 4; // obf: FNNHLPFGPIN 解出来的可能不对
+	uint32 combine_count = 7;
+	int32 retcode = 8;
+	repeated ItemParam totalRandomItemList = 9; // obf: LLOJHCEIBGO 解出来的可能不对
+	repeated ItemParam cost_item_list = 10;
+	uint64 avatar_guid = 12;
+	repeated ItemParam uk10 = 13; // obf: ELNAMCCOIJL 解出来的可能不对
+	repeated ItemParam result_item_list = 15; // obf: IHGOLMOHHNJ 解出来的可能不对
+}

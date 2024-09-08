@@ -1,0 +1,10 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+// CmdId: 20752
+// obf: FDPBICNKDBN
+// 5.0.0
+message AntiAddictNotify {
+	int32 msg_type = 6;
+	string level = 8;
+	string msg = 13;
+}

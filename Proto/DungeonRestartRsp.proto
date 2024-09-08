@@ -1,0 +1,10 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+
+// CmdId: 2128
+// obf: DBFAKCIGNJM
+message DungeonRestartRsp {
+	uint32 dungeon_id = 1;
+	int32 retcode = 2;
+	uint32 point_id = 13;
+}

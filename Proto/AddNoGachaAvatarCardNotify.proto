@@ -1,0 +1,15 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+import "AddNoGachaAvatarCardTransferItem.proto";
+
+// CmdId: 28082
+// obf: MGNNGBNNFEI
+message AddNoGachaAvatarCardNotify {
+	uint32 avatar_id = 6;
+	uint32 item_id = 7;
+	uint32 initial_level = 8; // 可能不对 要和下面互换
+	uint32 initial_promote_level = 9; // 可能不对 要和下面互换
+	bool is_transfer_to_item = 12;
+	uint32 reason = 14;
+	repeated AddNoGachaAvatarCardTransferItem transfer_item_list = 15;
+}

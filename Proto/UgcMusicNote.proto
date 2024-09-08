@@ -1,0 +1,8 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+
+//obf: BCOELCKIGPG
+message UgcMusicNote {
+	uint32 end_time = 2;
+	uint32 start_time = 14;
+}

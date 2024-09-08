@@ -1,0 +1,11 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+
+// CmdId: 3908
+// obf: IDMDPJLMEGL
+message QuestDestroyEntityRsp {
+	uint32 quest_id = 1;
+	uint32 entity_id = 3;
+	uint32 scene_id = 6;
+	int32 retcode = 11;
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+import "PlayerDieType.proto";
+
+// CmdId: 23261
+// obf: OEINPDDPGEJ
+message DungeonPlayerDieReq {
+	PlayerDieType die_type = 13;
+	uint32 dungeon_id = 11;
+}

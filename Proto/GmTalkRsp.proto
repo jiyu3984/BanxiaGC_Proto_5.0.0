@@ -1,0 +1,11 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+
+// 先标记这里 因为还没编译
+// CmdId: 27437
+// obf: PDMNOENHHOI
+message GmTalkRsp {
+	string retmsg = 5;
+	string msg = 12;
+	int32 retcode = 14;
+}

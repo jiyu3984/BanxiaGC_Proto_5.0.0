@@ -1,0 +1,14 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+
+//字段大概率有不对的
+// obf: GHFLHLFMFPL
+message ForgeQueueData {
+	uint32 total_finish_timestamp = 1;
+	uint32 forge_id = 2;
+	uint32 finish_count = 3;
+	uint32 avatar_id = 7;
+	uint32 queueId = 8;
+	uint32 unfinishCount = 12;
+	uint32 next_finish_timestamp = 13;
+}

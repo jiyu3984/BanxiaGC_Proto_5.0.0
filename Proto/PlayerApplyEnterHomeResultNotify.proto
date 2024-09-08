@@ -1,0 +1,24 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+
+// CmdId: 22086
+// obf: MAHGOPMDKPB
+message PlayerApplyEnterHomeResultNotify {
+	// obf: MCLKLLLBAIF
+	enum Reason {
+		PLAYER_JUDGE = 0;
+		PLAYER_ENTER_OPTION_REFUSE = 1;
+		PLAYER_ENTER_OPTION_DIRECT = 2;
+		SYSTEM_JUDGE = 3;
+		HOST_IN_MATCH = 4;
+		PS_PLAYER_NOT_ACCEPT_OTHERS = 5;
+		OPEN_STATE_NOT_OPEN = 6;
+		HOST_IN_EDIT_MODE = 7;
+		PRIOR_CHECK = 8;
+		PLAYER_OFFLINE = 9;
+	}
+	Reason reason = 2;
+	uint32 target_uid = 3;
+	string target_nickname = 4;
+	bool is_agreed = 6;
+}

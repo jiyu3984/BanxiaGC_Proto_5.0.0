@@ -1,0 +1,10 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+
+// CmdId: 24016
+// obf: FADLJEMABNC
+message TakeCompoundOutputReq {
+	bool OLEJPBPBNHC = 4;
+	uint32 compound_group_id = 2;
+	uint32 compound_id = 3;
+}

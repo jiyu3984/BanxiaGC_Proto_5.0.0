@@ -1,0 +1,10 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+
+// CmdId: 22925
+// obf: GKJJJBBNCEP
+message MonsterAIConfigHashNotify {
+	int32 hash_value = 4;
+	uint32 job_id = 8;
+	uint32 entity_id = 15;
+}

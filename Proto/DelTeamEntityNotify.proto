@@ -1,0 +1,10 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+
+// DelTeamEntityNotify or DelScenePlayTeamEntityNotify
+// CmdId: 29714
+// obf: GEIOMAELNGM
+message DelTeamEntityNotify {
+	repeated uint32 del_entity_id_list = 3;
+	uint32 scene_id = 6;
+}

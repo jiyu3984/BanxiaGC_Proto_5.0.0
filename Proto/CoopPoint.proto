@@ -1,0 +1,15 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+
+// obf: AKOGEOGFLLK
+message CoopPoint {
+	// obf: HPICHAILNKA
+	enum State {
+		UNSTARTED = 0;
+		STARTED = 1;
+		FINISHED = 2;
+	}
+	State state = 8;
+	uint32 self_confidence = 11;
+	uint32 id = 15;
+}

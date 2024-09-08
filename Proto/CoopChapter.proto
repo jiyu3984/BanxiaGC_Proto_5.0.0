@@ -1,0 +1,26 @@
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+import "CoopPoint.proto";
+import "CoopReward.proto";
+import "CoopCg.proto";
+
+//obf: NBHMAICJJP1O
+message CoopChapter {
+	enum State {
+		CLOSE = 0;
+		COND_NOT_MEET = 1;
+		COND_MEET = 2;
+		ACCEPT = 3;
+	}	
+	repeated uint32 FHGNBDADPBL = 1;
+	repeated uint32 FDHMFLAAEOG = 3;
+	repeated CoopPoint coop_point_list = 4;
+	repeated CoopReward coop_reward_list = 6;
+	State state = 8;
+	uint32 JOFEBPFEIJL = 9;
+	repeated CoopCg coop_cg_list = 10;
+	map<uint32, uint32> seen_ending_map = 12;
+	uint32 id = 13;
+	repeated uint32 PJNJLNPDPKG = 14;
+	uint32 CBOKJOBKCJO = 15;
+}
