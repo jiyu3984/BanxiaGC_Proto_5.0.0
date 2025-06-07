@@ -46,7 +46,7 @@ message JHLJLDKMHCJ {
 }
 
 message FFLJLNMFLFN {
-	uint32 level_id = 2;
+	uint32 open_time = 2;
 	bool is_open = 11;
 	uint32 MEMPKCGNNMF = 15;
 }
@@ -1570,7 +1570,7 @@ message FNPIINIBJMI {
 message ILJGMFHDNCE {
 	uint32 id = 1;
 	bool is_finished = 5;
-	uint32 level_id = 12;
+	uint32 open_time = 12;
 }
 
 message NGGKFPEMAPD {
@@ -1893,7 +1893,7 @@ message ACLNBIALAEO {
 message ECMMFBIINOJ {
 	uint32 max_score = 10;
 	uint32 id = 11;
-	uint32 level_id = 13;
+	uint32 open_time = 13;
 	Vector pos = 15;
 }
 
@@ -2149,7 +2149,7 @@ message DLIPMFLLFLP {
 	repeated NFIKJOPIIND AMMLJPGPIBO = 2;
 	bool is_open = 7;
 	uint32 MEMPKCGNNMF = 8;
-	uint32 level_id = 11;
+	uint32 open_time = 11;
 }
 
 // CmdId: 5364
@@ -2294,7 +2294,7 @@ message TakeCompoundOutputRsp {
 }
 
 message BNCDMIIDOII {
-	uint32 level_id = 5;
+	uint32 open_time = 5;
 	bool is_open = 6;
 	uint32 MEMPKCGNNMF = 7;
 	uint32 GPAELJHNAEK = 12;
@@ -2732,7 +2732,7 @@ message CKGEMJGNLGP {
 	uint32 scene_id = 8;
 	float PAKPALCKBAF = 10;
 	Vector MJKALBBJIPI = 11;
-	uint32 level_id = 12;
+	uint32 open_time = 12;
 	uint32 region_id = 15;
 }
 
@@ -3243,7 +3243,7 @@ message LABJLHGMNEB {
 	repeated uint32 OEIFPLDONKF = 1;
 	bool KFPMGHHDNDO = 6;
 	Vector center = 7;
-	uint32 level_id = 11;
+	uint32 open_time = 11;
 	uint32 MGCMNPLNJKL = 12;
 	bool is_open = 14;
 }
@@ -5134,7 +5134,7 @@ message LCMJAIOGKPO {
 message JMJAOKHPCPM {
 	bool is_open = 9;
 	uint32 DJMAIMMMMFA = 10;
-	uint32 level_id = 14;
+	uint32 open_time = 14;
 }
 
 // CmdId: 9150
@@ -7934,7 +7934,7 @@ message MJFEDEPGJDN {
 message OCDNPCALIKF {
 	uint32 PFEGABJGAMF = 2;
 	uint32 level_id = 5;
-	uint32 level_id = 6;
+	uint32 open_time = 6;
 	uint32 DJBLEKFBKMD = 7;
 	bool is_finished = 9;
 	bool is_open = 13;
@@ -8420,7 +8420,7 @@ message JHDMENMCJJO {
 	uint32 AHALDOMJPHD = 5;
 	bool is_open = 6;
 	uint32 MEMPKCGNNMF = 10;
-	uint32 level_id = 11;
+	uint32 open_time = 11;
 	bool JHFMEFICAAL = 13;
 }
 
@@ -9031,7 +9031,7 @@ message PANEKLBLCAD {
 
 message CPFFEKOHGDF {
 	uint32 level_id = 2;
-	uint32 level_id = 7;
+	uint32 open_time = 7;
 	repeated NPLPKKMDPHH EBJFFLNFFFG = 10;
 	uint32 FCCFDJEJBIF = 12;
 	NPLPKKMDPHH LNFDBMFEAFG = 13;
@@ -9583,7 +9583,7 @@ message FinishedParentQuestUpdateNotify {
 
 message HJHKKNPINBG {
 	uint32 GPAELJHNAEK = 7;
-	uint32 level_id = 8;
+	uint32 open_time = 8;
 	uint32 chapter_id = 12;
 }
 
@@ -9834,7 +9834,7 @@ message ChannellerSlabLoopDungeonInfo {
 	uint32 score = 5;
 	uint32 dungeon_index = 6;
 	repeated uint32 last_condition_id_list = 7;
-	uint32 level_id = 8;
+	uint32 open_time = 8;
 	bool is_first_pass_reward_taken = 13;
 }
 
@@ -10302,7 +10302,7 @@ message MKNEHILLINB {
 message IMGBDNMDGPD {
 	uint32 GPDOGMPIJFC = 4;
 	bool is_open = 6;
-	uint32 level_id = 12;
+	uint32 open_time = 12;
 	oneof detail {
 		PGILDAFJIHO balloon_info = 5;
 		AKOIABNKOMP fall_info = 8;
@@ -13521,7 +13521,7 @@ message ReliquaryDecomposeRsp {
 message IPBJLHACFKM {
 	bool is_open = 2;
 	uint32 progress = 6;
-	uint32 level_id = 9;
+	uint32 open_time = 9;
 	uint32 chapter_id = 11;
 	uint32 HGDLFMMIDKP = 15;
 }
@@ -14246,7 +14246,7 @@ message PAIPPEMGICH {
 
 message IHBAFCNDHDL {
 	uint32 chapter_id = 9;
-	uint32 level_id = 15;
+	uint32 open_time = 15;
 }
 
 // CmdId: 20985
@@ -16072,7 +16072,7 @@ message BGILDEAKCLE {
 	uint32 MEMPKCGNNMF = 3;
 	repeated PPGPJDDIEHM KJJDFPHKFEB = 5;
 	uint32 max_score = 8;
-	uint32 level_id = 10;
+	uint32 open_time = 10;
 	bool is_open = 15;
 }
 
@@ -17266,7 +17266,7 @@ message EGKEPOKKAAA {
 }
 
 message KGIGHCKLLKL {
-	uint32 level_id = 6;
+	uint32 open_time = 6;
 	Vector pos = 11;
 	uint32 HOJJLBLKOHJ = 12;
 	bool is_open = 13;
@@ -18247,7 +18247,7 @@ message PJKLPGCKCDN {
 message GLIHGJHNBGF {
 	KKMNANGFMOK DBNMJHDKFCI = 1;
 	KKMNANGFMOK CCHNAPLHIDL = 2;
-	uint32 level_id = 6;
+	uint32 open_time = 6;
 	uint32 level_id = 11;
 }
 
@@ -18947,7 +18947,7 @@ message SceneNpcInfo {
 
 message EAAHLPKJJMC {
 	uint32 HOJJLBLKOHJ = 5;
-	uint32 level_id = 6;
+	uint32 open_time = 6;
 }
 
 message FeatureBlockInfo {
@@ -20084,7 +20084,7 @@ message NLLLHGKPNFA {
 	Vector center = 7;
 	bool KFPMGHHDNDO = 9;
 	bool is_open = 11;
-	uint32 level_id = 15;
+	uint32 open_time = 15;
 }
 
 // CmdId: 6943
@@ -20972,7 +20972,7 @@ message NMAAPDNKGPJ {
 
 message GFILHAOGBDL {
 	bool is_open = 5;
-	uint32 level_id = 6;
+	uint32 open_time = 6;
 	uint32 MEMPKCGNNMF = 7;
 }
 
@@ -22088,8 +22088,8 @@ message EKMDOOCJEHN {
 
 // CmdId: 5759
 message ExecuteGadgetLuaReq {
-	int32 param2 = 10;
-	int32 param3 = 7;
+	int32 param3 = 10;
+	int32 param2 = 7;
 	int32 param1 = 1;
 	uint32 source_entity_id = 6;
 }
@@ -24263,7 +24263,7 @@ message PrivateChatNotify {
 }
 
 message MJKKFIHMKDD {
-	uint32 level_id = 1;
+	uint32 open_time = 1;
 	uint32 MEMPKCGNNMF = 3;
 	bool is_open = 5;
 	bool JHFMEFICAAL = 7;
@@ -24815,7 +24815,7 @@ message NGLBNCHJMMG {
 }
 
 message JKEIBODAGPM {
-	uint32 level_id = 7;
+	uint32 open_time = 7;
 	bool is_open = 13;
 	uint32 MEMPKCGNNMF = 14;
 }
@@ -25285,7 +25285,7 @@ message EIOFIEHHKIB {
 }
 
 message CELAJGPDPBN {
-	uint32 level_id = 12;
+	uint32 open_time = 12;
 	bool is_open = 15;
 }
 
@@ -26992,7 +26992,7 @@ message DMONFGPDGMH {
 message GIKLLMKGPBE {
 	bool is_finished = 3;
 	uint32 MEMPKCGNNMF = 10;
-	uint32 level_id = 13;
+	uint32 open_time = 13;
 	bool is_open = 15;
 }
 
@@ -28366,7 +28366,7 @@ message IOLIKLNLGCL {
 	bool is_open = 3;
 	uint32 MEMPKCGNNMF = 4;
 	bool JHFMEFICAAL = 6;
-	uint32 level_id = 11;
+	uint32 open_time = 11;
 }
 
 // CmdId: 9762
@@ -29268,7 +29268,7 @@ message GGKIGJCGIJN {
 	bool is_open = 1;
 	uint32 MEMPKCGNNMF = 3;
 	bool EGCLHKEILHK = 5;
-	uint32 level_id = 6;
+	uint32 open_time = 6;
 }
 
 // CmdId: 9093
@@ -29573,7 +29573,7 @@ message FIGEAFJGIJB {
 
 message HAKNDHLJDDH {
 	uint32 GNJDNIHKBPI = 3;
-	uint32 level_id = 5;
+	uint32 open_time = 5;
 	repeated ChannellerSlabLoopDungeonInfo DGAKHNHMPLE = 7;
 	repeated uint32 JOLFIBIJFHD = 13;
 	bool is_open = 15;
@@ -34020,6 +34020,4 @@ enum Retcode {
 	RET_RELIQUARY_OFFER_VERSION_TIMES_LIMIT = 13592;
 	RET_RELIQUARY_OFFER_PROGRESS_NOT_ENOUGH = 13593;
 	RET_RELIQUARY_OFFER_PROGRESS_OVER_LIMIT = 13594;
-	RET_RELIQUARY_PURCHASE_SUITE_TIMES_OVER_LIMIT = 13595;
-}
-
+	RET_RELIQUARY_PURCHASE_SUITE_
